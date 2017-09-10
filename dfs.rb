@@ -1,10 +1,15 @@
 class Dfs < Formula
-  desc "change and save defaults settings for Mac"
-  homepage "https://github.com/grapswiz/dfs"
-  url "https://github.com/grapswiz/dfs/releases/download/v0.0.1/dfs_0.0.1_macOS_amd64.tar.gz"
-  sha256 "607bc41e18411c25d4dd7af28df2cd164981eb12e65431a99246caf144ab1b3b"
+  desc ""
+  homepage ""
+  url "https://github.com/grapswiz/dfs/releases/download/v0.0.3/dfs_0.0.3_macOS_amd64.zip"
+  version "0.0.3"
+  sha256 "c33ee08a4b78be34fc5d440c3288ae088daa00c7f2f50e88b3007312d464d3a5"
 
   def install
-    bin.install 'dfs'
+    bin.install "dfs"
+  end
+
+  test do
+    
   end
 end
