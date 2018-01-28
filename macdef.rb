@@ -1,9 +1,9 @@
 class Macdef < Formula
   desc "change and save defaults settings for Mac."
   homepage "https://github.com/grapswiz/macdef"
-  url "https://github.com/grapswiz/macdef/releases/download/v0.0.1/macdef_0.0.1_macOS_amd64.zip"
-  version "0.0.1"
-  sha256 "a657908b634bdc01821b573af64ba654b965ea6493ad7980d0c0fad831f9a497"
+  url "https://github.com/grapswiz/macdef/releases/download/v0.0.2/macdef_0.0.2_macOS_amd64.zip"
+  version "0.0.2"
+  sha256 "92ce1117370f43bc1b1a1da8b68bd0c6e86473759674d3c31980cbcf9a9da2e5"
 
   def install
     bin.install "macdef"
